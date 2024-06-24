@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce747865-5fed-407a-af5f-3f5e3dbab2d8" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/A1sort/S1HeapSort.java" afterDir="false" />
+    <list default="true" id="ce747865-5fed-407a-af5f-3f5e3dbab2d8" name="Changes" comment="dfs start">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2dfs/D1Basic1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2dfs/D2Basic2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2dfs/D3Basic3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2dfs/D4피로도.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/B1Basic1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/B2Basic2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/B3Basic3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/B4Basic4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/B5가장먼노드.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2dfs/D1Basic.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +47,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -46,20 +57,70 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.S1HeapSort">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="A3bfs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.D4피로도">
+    <configuration name="B1Basic1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A3bfs.B1Basic1" />
       <module name="major_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A3bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S1HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A1sort.S1HeapSort" />
+    <configuration name="B2Basic2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A3bfs.B2Basic2" />
       <module name="major_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A1sort.*" />
+          <option name="PATTERN" value="A3bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B3Basic3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A3bfs.B3Basic3" />
+      <module name="major_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A3bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B5가장먼노드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A3bfs.B5가장먼노드" />
+      <module name="major_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A3bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D4피로도" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A2dfs.D4피로도" />
+      <module name="major_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A2dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,8 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.S1HeapSort" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.D4피로도" />
+        <item itemvalue="Application.B5가장먼노드" />
+        <item itemvalue="Application.B3Basic3" />
+        <item itemvalue="Application.B2Basic2" />
+        <item itemvalue="Application.B1Basic1" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718937081501</updated>
-      <workItem from="1718937082789" duration="14117000" />
+      <workItem from="1718937082789" duration="35756000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1718937146767</created>
@@ -91,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718937146767</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dfs start">
+      <created>1719190159209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719190159209</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="dfs start" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfs start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
