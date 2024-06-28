@@ -58,13 +58,6 @@ public class G2체육복 {
         for (int a : reserve) {
             reserveP.add(a);
         }
-        for (int a : lost) {
-            if(reserveP.contains(lost[a])){
-                reserveP.remove(a);
-            } else {
-                lostP.add(a);
-            }
-        }
         System.out.println(reserveP);
 
     }
